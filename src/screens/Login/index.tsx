@@ -7,9 +7,9 @@ export const Login = ({navigation}) => {
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.back} onPress = {() => navigation.goBack()}>
-                <Image source={require('../../assets/free-arrow-left-icon-3099-thumb.png')} style={styles.backImage} />
+                <Image source={require('../../../assets/free-arrow-left-icon-3099-thumb.png')} style={styles.backImage} />
             </TouchableOpacity>
-            <Image source={require('../../assets/logo-disneyplus-branca-1024.png')} style={styles.logo} />
+            <Image source={require('../../../assets/logo-disneyplus-branca-1024.png')} style={styles.logo} />
             <Text style={styles.texto}>Use o seu e-mail para entrar</Text>
             <TextInput style={styles.input} placeholder='E-mail' placeholderTextColor='gray'></TextInput>
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Perfis')}>

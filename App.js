@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes } from './routes/StackNavigator/index'
+import { Routes } from './src/routes/StackNavigator/index'
 
 const App = () => {
 	return (

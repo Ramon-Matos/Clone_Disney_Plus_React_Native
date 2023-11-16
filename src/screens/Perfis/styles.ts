@@ -8,7 +8,8 @@ export const styles = StyleSheet.create({
     },
     editar: {
         color: 'white',
-        marginLeft: 270
+        fontWeight: '700',
+        marginLeft: 260
     },
     assistir: {
         color: 'white',
@@ -18,13 +19,13 @@ export const styles = StyleSheet.create({
         fontWeight: '600'
     },
     perfilContainer: {
-        marginHorizontal: 50,
-        marginTop: 50
+        marginHorizontal: 70,
+        marginTop: 20,
     },
     perfil: {
         width: 100,
         height: 100,
-        borderRadius: 50
+        borderRadius: 50,
     },
     perfil1: {
         alignSelf: 'flex-start',
@@ -34,20 +35,28 @@ export const styles = StyleSheet.create({
     perfil2: {
         alignSelf: 'flex-end',
         alignItems: 'center',
-        marginTop: -130,
+        marginTop: -134,
+        
         gap: 10
     },
     perfil3: {
         alignSelf: 'flex-start',
         alignItems: 'center',
-        marginTop: 40,
+        marginTop: 51,
         gap: 10
     },
     perfil4: {
         alignSelf: 'center',
         alignItems: 'center',
-        marginTop: 40,
+        marginTop: 51,
+        paddingBottom: 8,
         gap: 10
     },
+    nomes: {
+        color: 'white',
+        fontSize: 14,
+        letterSpacing: 0.6,
+        fontWeight: '700'
+    }
 
 })

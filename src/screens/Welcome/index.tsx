@@ -8,22 +8,22 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 export const Welcome = ({navigation}) => {
     return (
-        <ImageBackground source={require('../../assets/disney_plus_background.png')} style={styles.background}>
+        <ImageBackground source={require('../../../assets/disney_plus_background.png')} style={styles.background}>
             <LinearGradient style={styles.conteudo} locations={[0.5, 0.6, 1]} colors={['transparent', '#1b1e2b', '#1b1e2b']}>
                 <View style={styles.container}>
-                    <Image source={require('../../assets/logo-disneyplus-branca-1024.png')} style={styles.logo} />
+                    <Image source={require('../../../assets/logo-disneyplus-branca-1024.png')} style={styles.logo} />
                     <Text style={styles.texto}>As melhores histórias</Text>
                     <Text style={styles.texto}>em um só lugar.</Text>
                     <View style={styles.logosContainer}>
-                        <Image source={require('../../assets/logo-disney-white.png')} style={styles.logos} />
-                        <Image source={require('../../assets/white-plus-icon-3.png')} style={styles.plus} />
-                        <Image source={require('../../assets/imagem_2023-11-16_015220540-removebg-preview.png')} style={styles.logos} />
-                        <Image source={require('../../assets/white-plus-icon-3.png')} style={styles.plus} />
-                        <Image source={require('../../assets/marvel_logo.png')} style={styles.logos} />
-                        <Image source={require('../../assets/white-plus-icon-3.png')} style={styles.plus} />
-                        <Image source={require('../../assets/imagem_2023-11-16_015824069-removebg-preview.png')} style={styles.logos} />
-                        <Image source={require('../../assets/white-plus-icon-3.png')} style={styles.plus} />
-                        <Image source={require('../../assets/imagem_2023-11-16_015939041-removebg-preview.png')} style={styles.logos} />
+                        <Image source={require('../../../assets/logo-disney-white.png')} style={styles.logos} />
+                        <Image source={require('../../../assets/white-plus-icon-3.png')} style={styles.plus} />
+                        <Image source={require('../../../assets/imagem_2023-11-16_015220540-removebg-preview.png')} style={styles.logos} />
+                        <Image source={require('../../../assets/white-plus-icon-3.png')} style={styles.plus} />
+                        <Image source={require('../../../assets/marvel_logo.png')} style={styles.logos} />
+                        <Image source={require('../../../assets/white-plus-icon-3.png')} style={styles.plus} />
+                        <Image source={require('../../../assets/imagem_2023-11-16_015824069-removebg-preview.png')} style={styles.logos} />
+                        <Image source={require('../../../assets/white-plus-icon-3.png')} style={styles.plus} />
+                        <Image source={require('../../../assets/imagem_2023-11-16_015939041-removebg-preview.png')} style={styles.logos} />
                     </View>
                 </View>
                 <View style={styles.buttonContainer}>
